@@ -211,3 +211,129 @@ nav {
     position: relative;
     left: 200px;
 }
+.movie{
+    position: relative;
+    width: 3000px;
+height: 655px;
+
+left: 1px;
+gap: 0px;
+opacity: 0px;
+
+}
+.play{
+    position: relative;
+    bottom: 450px;
+    left: 1250px;
+}
+@media screen and (min-width:1024px) and (max-width:1280px) {
+        header{
+            width: 1024px;
+        }
+}
+
+.free{
+    position: relative;
+    left: 330px;
+    
+}
+.free h1{
+    width: 370px;
+    height: 144px;
+    position: relative;
+    top: 350px;
+    left: 150px;
+    color: white;
+
+}
+.free p{
+    width: 370px;
+    height: 108px;
+    position: relative;
+    top: 390px;
+    left: 150px;
+    color: white;
+
+}
+.free button{
+    position: relative;
+    bottom: 270px;
+    right: 550px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    background: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    display: inline-block; 
+
+}
+
+
+.pay{
+    position: relative;
+    left: 1490px;
+    bottom: 1090px;
+}
+.pay h1{
+    width: 370px;
+    height: 144px;
+    position: relative;
+    top: 350px;
+    left: 150px;
+    color: white;
+
+}
+.pay p{
+    width: 370px;
+    height: 108px;
+    position: relative;
+    top: 390px;
+    left: 150px;
+    color: white;
+
+}
+.pay button{
+    position: relative;
+    bottom: 270px;
+    right: 550px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    background: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    display: inline-block; 
+
+}
+#IMG{
+    
+    width: 2900px;
+    height: 452px;
+    
+    position: relative;
+    bottom: 1200px ;
+    
+}
+#podlod{
+    position: relative;
+    left: 2200px;
+}
+.sub{
+    position: relative;
+    bottom: 150px;
+    left: 90px;
+}
+
+@keyframes example {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+  }
+  
+  .fish {
+    position: relative;
+    bottom: 1200px;
+    left: 300px;
+    animation: example 2s infinite;
+  }
